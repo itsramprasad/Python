@@ -1,0 +1,87 @@
+# Unit : 3
+
+# 1. Write a NumPy program using methods - info, add, array, all, greater,
+# greater_equal, less, less_equal, equal, allclose, zeros, ones, linespace, tolist.
+# a) To get help on the add function
+# b) To test whether none of the elements of a given array is zero.
+# c) To create an element-wise comparison (greater, greater_equal, less 
+# and less_equal, equal, equal within a tolerance) of two given arrays
+
+# Code for a:
+import numpy as np
+# Get help on the numpy.add function
+help(np.add)
+# or in an interactive environment like Jupyter:
+# np.add?
+
+# Output for a:
+# Help on ufunc object:
+
+# add = <ufunc 'add'>
+#     add(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K',
+#         dtype=None, subok=True[, signature, extobj])
+    
+#     Add arguments element-wise.
+
+# Code for b:
+import numpy as np
+# Create a sample array with no zeros
+arr1 = np.array([ 56, 23, 4, 89, 7 ])
+# Create a sample array with a zero
+arr2 = np.array([1, 0, 3, 4, 5])
+# Check if none of the elements are zero
+is_none_zero_1 = np.all(arr1 != 0)
+is_none_zero_2 = np.all(arr2 != 0)
+print("Array 1:", arr1)
+print("Are none of the elements zero?", is_none_zero_1)
+print("\nArray 2:", arr2)
+print("Are none of the elements zero?", is_none_zero_2)
+
+
+# Output for b:
+
+# [56 23 4 89 7 ]
+# Are none of the elements zero? True
+# Array 2: [1 0 3 4 5]
+# Are none of the elements zero? False
+
+# Code for c:
+import numpy as np
+
+# Create two sample arrays
+arr1 = np.array([11, 22, 33, 44, 55])
+arr2 = np.array([11, 22, 33, 44, 55.000000001])
+
+print("Array 1:", arr1)
+print("Array 2:", arr2)
+
+# Element-wise comparisons
+print("\nGreater than:", arr1 > arr2)
+print("Greater than or equal to:", arr1 >= arr2)
+print("Less than:", arr1 < arr2)
+print("Less than or equal to:", arr1 <= arr2)
+print("Equal:", arr1 == arr2)
+
+# Equal within tolerance
+print("All close (tolerance check):", np.allclose(arr1, arr2))
+
+# Output for c:
+
+# Array 1: [11 22 33 44 55]
+# Array 2: [11.         22.         33.         44.         55.000000001]
+
+# Greater than: [False False False False False]
+# Greater than or equal to: [ True  True  True  True False]
+# Less than: [False False False False  True]
+# Less than or equal to: [ True  True  True  True  True]
+# Equal: [ True  True  True  True False]
+# All close (tolerance check): True
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+# unit : 2
+
+# 4. Write a Python program that demonstrates error handling
+# using the try-except block to handle division by zero
+
+# Code:
+def safe_divide(numerator, denominator):
+    try:
+        result = numerator / denominator
+        print(f"The result of {numerator} / {denominator} is: {result}")
+    except ZeroDivisionError:
+        print(f"Error: Cannot divide by zero! Attempted {numerator} / {denominator}")
+    except TypeError:
+        print("Error: Invalid input types. Please provide numbers.")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+# Demonstrating error handling
+print("\n--- Error Handling Demonstration ---")
+safe_divide(45, 30)      # Valid division
+safe_divide(55, 0)      # Division by zero
+safe_divide("hello", 3) # Invalid type
+
+# Output:  --- Error Handling Demonstration ---
+#          The result of 45 / 30 is: 1.5
+#          Error: Cannot divide by zero! Attempted 55 / 0
+#          Error: Invalid input types. Please provide numbers.

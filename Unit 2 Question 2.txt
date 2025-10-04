@@ -1,0 +1,66 @@
+# Unit : 2
+
+# 2. Write a Python program that demonstrates inheritance by creating a base class Animal and derived classes like Dog, Cat,etc..., each with their specific behaviours
+
+# Code:
+
+# Program to demonstrate inheritance in Python
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    def eat(self):
+        print(f"{self.name} is eating.")
+    def sleep(self):
+        print(f"{self.name} is sleeping.")
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name)
+        self.breed = breed
+    def bark(self):
+        print(f"{self.name} (a {self.breed}) barks: Woof! Woof!")
+
+class Cat(Animal):
+    def __init__(self, name, color):
+        super().__init__(name)
+     self.color = color
+    def meow(self):
+        print(f"{self.name} (a {self.color} cat) meows: Meow!")
+
+class Bird(Animal):
+    def __init__(self, name, species):
+        super().__init__(name)
+        self.species = species
+    def fly(self):
+        print(f"{self.name} (a {self.species}) is flying high!")
+
+# Demonstrating inheritance
+print("\n--- Inheritance Demonstration ---")
+my_dog = Dog("Buddy", "Bulldog")
+my_cat = Cat("Daisy", "White")
+my_bird = Bird("Max", "Canary")
+
+my_dog.eat()
+my_dog.bark()
+my_dog.sleep()
+
+my_cat.eat()
+my_cat.meow()
+my_cat.sleep()
+
+my_bird.eat()
+my_bird.fly()
+my_bird.sleep()
+
+
+# Output: Buddy is eating.
+#         Buddy (a Bulldog) barks: Woof! Woof!
+#         Buddy is sleeping.
+
+#         Daisy is eating.
+#         Daisy (a White cat) meows: Meow!
+#         Daisy is sleeping.
+
+#         Max is eating.
+#         Max (a Canary) is flying high!
+#         Max is sleeping.

@@ -1,0 +1,27 @@
+Unit : 1
+
+4. Write a Python program to get the largest number from a list.
+
+Code:
+
+using max()
+numbers = [ 56, 98, 46, 1, 73, 64 ]
+largest_number = max(numbers)
+print(f"The largest number in the list is: {largest_number}")
+
+                                                            
+
+using for loop
+numbers = [ 56, 98, 46, 1, 73, 64 ]
+if not numbers:  # Handle the case of an empty list
+    print("The list is empty.")
+else:
+    largest_number = numbers[0]  # Assume the first element is the largest initially
+    for num in numbers:
+        if num > largest_number:
+            largest_number = num
+    print(f"The largest number in the list (manual iteration) is: {largest_number}")
+
+
+Output: The largest number in the list is: 98
+
