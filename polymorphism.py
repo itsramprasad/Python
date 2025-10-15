@@ -1,6 +1,4 @@
-# Unit : 2
-
-# 3. Define a base class called Animal with a methode make_sound(). 
+# Define a base class called Animal with a methode make_sound(). 
 # Implement derived classes like Dog, Cat, and Bird that override the make_sound() 
 # method to produce different sounds. Demonstrate polymorphism by calling 
 # the method on objeccts of different classes.
@@ -30,3 +28,4 @@ for animal in animals:
 #         An animal makes sound: Bow! Bow!
 #         An animal makes sound: Mew! Mew!
 #         An animal makes sound: Tweet! Tweet!
+
