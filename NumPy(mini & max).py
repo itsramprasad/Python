@@ -1,6 +1,5 @@
-# Unit : 3
 
-# 2. Write a NumPy program using NumPy methods - max, min, argmax,
+# Write a NumPy program using NumPy methods - max, min, argmax,
 # argmin, repr, count, bicount, unique.
 # a) To extract all numbers from a given array which are less and greater than a specified number.
 # b) To find the indices of the maximum and minimum numbers along the given axis of an array.
@@ -58,5 +57,6 @@ print("Minimum values:", min_values)
 
 # Maximum values: [20 25 30]
 # Minimum values: [ 5  3  8]
+
 
 
