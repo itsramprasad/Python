@@ -1,6 +1,5 @@
-# Unit : 3
 
-# 1. Write a NumPy program using methods - info, add, array, all, greater,
+# Write a NumPy program using methods - info, add, array, all, greater,
 # greater_equal, less, less_equal, equal, allclose, zeros, ones, linespace, tolist.
 # a) To get help on the add function
 # b) To test whether none of the elements of a given array is zero.
@@ -76,6 +75,7 @@ print("All close (tolerance check):", np.allclose(arr1, arr2))
 # Less than or equal to: [ True  True  True  True  True]
 # Equal: [ True  True  True  True False]
 # All close (tolerance check): True
+
 
 
 
