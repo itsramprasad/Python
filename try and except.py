@@ -1,6 +1,4 @@
-Unit : 1
-
-1. Write a program that asks the user fora weight in kilograms and convert it to pounds. There are 2.2 pounds in a kilogram
+Write a program that asks the user fora weight in kilograms and convert it to pounds. There are 2.2 pounds in a kilogram
 
 Code:
 
@@ -20,5 +18,6 @@ kg_to_pounds()
 
 
 Input:	Enter the weight in kilograms: 108
+
 
 Output: The weight in pounds is: 237.6
