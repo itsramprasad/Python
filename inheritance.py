@@ -1,6 +1,4 @@
-# Unit : 2
-
-# 2. Write a Python program that demonstrates inheritance by creating a base class Animal and derived classes like Dog, Cat,etc..., each with their specific behaviours
+Write a Python program that demonstrates inheritance by creating a base class Animal and derived classes like Dog, Cat,etc..., each with their specific behaviours
 
 # Code:
 
@@ -63,4 +61,5 @@ my_bird.sleep()
 
 #         Max is eating.
 #         Max (a Canary) is flying high!
+
 #         Max is sleeping.
