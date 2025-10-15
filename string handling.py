@@ -1,4 +1,4 @@
-Split a string into array of characters in python
+ Split a string into array of characters in python
 
 Code:
 
@@ -17,6 +17,7 @@ print(char_list)
 
 
 Output: [ ‘p’, ‘r’, ‘a’, ‘s’, ‘a’, ‘d’]
+
 
 
 
