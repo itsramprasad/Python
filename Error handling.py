@@ -1,6 +1,4 @@
-# unit : 2
-
-# 4. Write a Python program that demonstrates error handling
+# Write a Python program that demonstrates error handling
 # using the try-except block to handle division by zero
 
 # Code:
@@ -25,3 +23,4 @@ safe_divide("hello", 3) # Invalid type
 #          The result of 45 / 30 is: 1.5
 #          Error: Cannot divide by zero! Attempted 55 / 0
 #          Error: Invalid input types. Please provide numbers.
+
