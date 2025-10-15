@@ -1,6 +1,4 @@
-Unit : 1
-
-2. Write a program that uses a for loop to print the numbers 8, 11, 14, 17, 20,......83, 86, 89
+Write a program that uses a for loop to print the numbers 8, 11, 14, 17, 20,......83, 86, 89
 
 Code:
 
@@ -48,6 +46,7 @@ Output:
 83
 86
 89
+
 
 
 
