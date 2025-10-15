@@ -1,6 +1,4 @@
-# Unit : 2
-
-# 1. Write a Python program that defines a Car class with attributes like make, model, and year, and methods like start() to start the car and stop() to stop it.
+Write a Python program that defines a Car class with attributes like make, model, and year, and methods like start() to start the car and stop() to stop it.
 
 # Code:
 
@@ -41,4 +39,5 @@ my_car.stop()    # trying to stop again
 # The 2020 Hyundai I20 asta  is starting.
 #	The 2020 Hyundai I20 asta  is already running.
 #	The 2020 Hyundai I20 asta  is stopping.
+
 #	The 2020 Hyundai I20 asta  is already stopped.
