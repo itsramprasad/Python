@@ -1,6 +1,4 @@
-Unit : 1
-
-4. Write a Python program to get the largest number from a list.
+Write a Python program to get the largest number from a list.
 
 Code:
 
@@ -24,4 +22,5 @@ else:
 
 
 Output: The largest number in the list is: 98
+
 
