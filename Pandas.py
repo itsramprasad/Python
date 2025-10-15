@@ -1,6 +1,4 @@
-# Unit : 4
-
-# 1. Pandas DataSeries
+# Pandas DataSeries
 # a) Write a Pandas program to create and display a one-dimensional array-like object containing an array of data using Pandas module.
 # b) Write a Pandas program to convert a Panda module Series to Python list and it's type
 
@@ -45,3 +43,4 @@ print(data_list)
 # 4    5
 # dtype: int64
 # [1, 2, 3, 4, 5]
+
